@@ -40,8 +40,6 @@ class GitHubPage:
         languages = driver.find_elements_by_xpath("//a[@data-ga-click='Repository, language stats search click, location:repo overview']/span")
         languagesString = "";
         length = len(languages)
-        #for i in languages:
-            #languagesString += i.text + ' '
         for i in range(0,length):
             if languages[i].text != "":
                 languagesString += languages[i].text + ' '
