@@ -2,6 +2,11 @@
 This tool scrapes (a tiny part of) Github, stores the scraped data, verifies the validity of URLs, and verifies the performance.
 Excercise for Argus
 
+
+If you are new to python and pycharm, please see take this course https://www.udemy.com/pythonautomation/learn/v4/content.
+This course contain a step-by-step instructions on how to set up an env to develop python from scratch! 
+(You only need to view the first short videos, don't worry, it's not that long untill you get productive.)
+
 1. Install Docker Toolbox. See how here: https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help
 2. Install Mongo DB on Docker Tool box. See how here: https://codehangar.io/mongodb-image-instance-with-docker-toolbox-tutorial/
 3. In the same tutorial of phase #2, Follow the opening of the virtual box instructions.
