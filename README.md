@@ -17,9 +17,9 @@ This course contains a step-by-step instructions on how to set up an env to deve
 1. Go to https://www.seleniumhq.org/download/ and install Selenuim Webdriver. (I am using chrome driver).
 2. MUST!!! Place your cromedriver.exe file locally under the C:\Users\yourUserNameInYourMachine\ directory.
 3. If you do not know your username do the following:
-  3.1. Type Windows key, then type cmd (Open a command prompt)
-  3.2. Type set in the black command window
-  3.3. The value of the 'USERPROFILE' variable is where you should place cromedriver.exe
+  * Type Windows key, then type cmd (Open a command prompt)
+  * Type set in the black command window
+  * The value of the 'USERPROFILE' variable is where you should place cromedriver.exe
   
 ### RoboMongo and Docker Installation
 1. Install Docker Toolbox. See how here: https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help
