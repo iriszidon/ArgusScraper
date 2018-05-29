@@ -33,6 +33,7 @@ This course contains a step-by-step instructions on how to set up an env to deve
 2. I am using Pycharm of Jetbrains. Pycharm has a terminal that allows to install python libraries.
 3. In the Pycharm terminal type 'pip install pymongo' to use the mongo API in your python file.
 4. In the Pycharm terminal type 'pip install selenium' to use the selenium functionality.
+5. In the Pycharm terminal type 'pip install docker' to use the docker functionality.
 
 ## Tests
 1. Open a python project and add the files from this repository
