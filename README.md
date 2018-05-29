@@ -18,7 +18,7 @@ This course contains a step-by-step instructions on how to set up an env to deve
 2. MUST!!! Place your cromedriver.exe file locally under the C:\Users\yourUserNameInYourMachine\ directory.
 3. If you do not know your username do the following:
   * Type Windows key, then type cmd (Open a command prompt)
-  * Type set in the black command window
+  * Type 'set' in the black command window
   * The value of the 'USERPROFILE' variable is where you should place cromedriver.exe
   
 ### RoboMongo and Docker Installation
