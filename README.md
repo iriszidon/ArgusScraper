@@ -1,13 +1,19 @@
 # ArgusScraper
+
+## Synopsis
 This tool scrapes (a tiny part of) Github, stores the scraped data, verifies the validity of URLs, and verifies the performance.
 Excercise for Argus
 
+## Motivation
+This is an exercise that demonstrates python code capabilities in a variety of technologies such as: Selenuim driver, docker and Mongo DB.
 
-If you are new to python and pycharm, please see take this course https://www.udemy.com/pythonautomation/learn/v4/content.
+## Contributors
+1. If you are new to python and pycharm, please see take this course https://www.udemy.com/pythonautomation/learn/v4/content.
 This course contains a step-by-step instructions on how to set up an env to develop python from scratch! 
+(You only need to view the first short videos, don't worry, it's not that long until you get productive.)
+2. Install Robomongo client from https://robomongo.org/download. I used Robo 3T. All instructions are right there.
 
-(You only need to view the first short videos, don't worry, it's not that long untill you get productive.)
-
+## Installation
 1. Install Docker Toolbox. See how here: https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help
 2. Install Mongo DB on Docker Tool box. See how here: https://codehangar.io/mongodb-image-instance-with-docker-toolbox-tutorial/
 3. In the same tutorial of phase #2, Follow the opening of the virtual box instructions.
@@ -15,9 +21,12 @@ This course contains a step-by-step instructions on how to set up an env to deve
 5. I am using Pycharm of Jetbrains. Pycharm has a terminal that allows to install python libraries.
 6. In the Pycharm terminal type 'pip install pymongo' to use the mongo API in your python file.
 7. In the Pycharm terminal type 'pip install selenium' to use the selenium functionality.
-8. Open a python project and add the files from this repository
-9. The main class is Argus.py, please run only this file.
-10. The functionality of the web page I scrape is in a saparate class, GitHubPgae.py. No need to run it.
-9. Run and view the output in Robomongo Client.
+
+## Tests
+1. Open a python project and add the files from this repository
+2. The main class is Argus.py, please run only this file.
+3. The functionality of the web page I scrape is in a saparate class, GitHubPgae.py. No need to run it.
+4. Run and view the output in Robomongo Client. Click the green triangle icon to fetch changes.
 
 Enjoy!
+Iris.
