@@ -38,7 +38,7 @@ If you have OS Windows Home you cannot install Docker, in that case install Dock
 6. In the Pycharm terminal type 'pip install flask' for the creation of the docker.
 
 ## How to run the Scraper
-1. Open a python project and add the files from this repository
+1. Open a python project and add the files from this repository (Put the files init.py, models, viewes under a subfolder named 'counter')
 2. Open a Docker console, Go to the directory where you stored the scraper files.
 3. Type into the docker console the following: docker-compose build
 4. Type into the docker console the following: docker-compose up
