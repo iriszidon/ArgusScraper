@@ -8,9 +8,12 @@ Excercise for Argus
 This is an exercise that demonstrates python code capabilities in a variety of technologies such as: Selenuim driver, docker and Mongo DB.
 
 ## Contributors
+### Python
 1. If you are new to python and pycharm, please see take this course https://www.udemy.com/pythonautomation/learn/v4/content.
 This course contains a step-by-step instructions on how to set up an env to develop python from scratch! 
 (You only need to view the first short videos, don't worry, it's not that long until you get productive.)
+### Docker
+1. If you are new to python and pycharm, I recommend taking this course  https://www.udemy.com/docker-flask-course/learn/v4/content. It teaches you dockers from scratch.
 
 ## Installation
 ### Selenuim Installation
