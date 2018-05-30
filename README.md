@@ -21,12 +21,10 @@ This course contains a step-by-step instructions on how to set up an env to deve
   * Type 'set' in the black command window
   * The value of the 'USERPROFILE' variable is where you should place cromedriver.exe
   
-### RoboMongo and Docker Installation
+### RoboMongo client and Docker Installation
+If you have OS Windows Home you cannot install Docker, in that case install Docker tool box.
 1. Install Docker Toolbox. See how here: https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help
-2. Install Mongo DB on Docker Tool box. See how here: https://codehangar.io/mongodb-image-instance-with-docker-toolbox-tutorial/
-3. In the same tutorial of phase #2, Follow the opening of the virtual box instructions.
-4. In the same tutorial of phase #2, Follow the installation of Robomongo client to see the data that you have stored , in my machine it is 'mongodb://localhost:1111/'
-5. Robomongo client is available from https://robomongo.org/download. I used Robo 3T. All instructions are right there.
+2. Robomongo client is available from https://robomongo.org/download. I used Robo 3T. All instructions are right there.
 
 ### Pycharm Installation
 1. Pycharm is available at https://www.jetbrains.com/pycharm-edu/download/#section=windows
