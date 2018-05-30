@@ -37,11 +37,14 @@ If you have OS Windows Home you cannot install Docker, in that case install Dock
 5. In the Pycharm terminal type 'pip install docker' to use the docker functionality.
 6. In the Pycharm terminal type 'pip install flask' for the creation of the docker.
 
-## Tests
+## How to run the Scraper
 1. Open a python project and add the files from this repository
+2. Open a Docker console, Go to the directory where you stored the scraper files.
+3. Type into the docker console the following: docker-compose build
+4. Type into the docker console the following: docker-compose up
 2. The main class is Argus.py, please run only this file.
 3. The functionality of the web page I scrape is in a saparate class, GitHubPgae.py. No need to run it.
-4. Run and view the output in Robomongo Client. Click the green triangle icon to fetch changes.
+4. Connect to Robomongo Client. Click the green triangle icon to fetch changes.
 
 Enjoy!
 Iris.
