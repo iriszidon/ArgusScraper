@@ -1,13 +1,16 @@
 import time
+import os
 from GitHubPage import GitHubPage
 from pymongo import MongoClient
 from selenium import webdriver
 
+
 # Initializations -------------------
 githubHome = "https://github.com/"
 keyword = 'selenium'
-driver = webdriver.Chrome('C:\JavaGrid\chromedriver')
-
+pathToDriver = os.environ['USERPROFILE'] + '\chromedriver'
+print(pathToDriver)
+driver = webdriver.Chrome(pathToDriver)
 #the testScenario-----------------------------
 page = GitHubPage(driver)
 page.navigateToSite(driver, githubHome)
@@ -18,8 +21,10 @@ endSearchQueryTime = time.time()
 totalTime = round(endSearchQueryTime - startSearchQueryTime, 3)
 outputMessage = "The search query has lasted for %s milliseconds"
 print(outputMessage%totalTime)
+# Create a docker instance-----------------------
+
 # Connent to mongo Data Base----------------------
-client = MongoClient('mongodb://localhost:1111/')
+client = MongoClient('mongodb://localhost:5000/')
 db = client.test_database # getting the data base
 collection = db.test_collection # Getting the collection
 posts = db.posts # Inserting a Document
