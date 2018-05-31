@@ -24,7 +24,7 @@ print(outputMessage%totalTime)
 # Create a docker instance-----------------------
 
 # Connent to mongo Data Base----------------------
-client = MongoClient('mongodb://localhost:5000/')
+client = MongoClient('mongodb://192.168.99.100:2376', connect=True)
 db = client.test_database # getting the data base
 collection = db.test_collection # Getting the collection
 posts = db.posts # Inserting a Document
